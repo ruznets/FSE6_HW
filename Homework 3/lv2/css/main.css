@@ -1,0 +1,57 @@
+
+body{
+    background: #0d5825;
+    width: auto;
+    margin: 10px;
+    padding: 50px;
+}
+blockquote{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+}
+span{
+    font-style: italic;
+    font-weight: 200;
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px;
+    margin: auto; */
+}
+img{
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: 0;
+    transition: margin-top 0.1s;
+}
+img:hover{
+    margin-top: -35px; 
+    cursor: pointer;
+    transition: margin-top 0.3s;
+}
+.card-01{
+    transform: rotate(-25deg);
+    left: 100px;
+    z-index: 1; 
+}
+.card-02{
+    top: 5px;
+    transform: rotate(-10deg);
+    left: 0px;
+    z-index: 3; 
+}
+.card-03{
+    top: 25px;
+    transform: rotate(10deg);
+    left: -100px;
+    z-index: 5; 
+}
+
+

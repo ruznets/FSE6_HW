@@ -1,0 +1,119 @@
+
+body{
+    width: auto;
+    margin: 10px;
+    padding: 50px;
+}
+.container{
+    background:white;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    z-index: 1;
+}
+.card-001{
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width: 100px;
+    height: 100px;
+    background: #e6e6e6;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 1px solid black;
+    z-index: 2;
+}
+.card-002{
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width: 100px;
+    height: 100px;
+    background: #e6e6e6;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    border: 1px solid black;
+    z-index: 3;
+}
+.card-003{
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width: 100px;
+    height: 100px;
+    background:#e6e6e6;
+    position: relative;
+    top: 0px;
+    left: 200px;
+    border: 1px solid black;
+    z-index: 4;
+}
+.card-004{
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width: 100px;
+    height: 100px;
+    background: #e6e6e6;
+    position: relative;
+    top: -50px;
+    left: 250px;  
+    border: 1px solid black;
+    z-index: 5;
+}
+.inside{
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: #e6e6e6;
+    position: absolute;
+    left:-1px;
+    top: -1px;
+    border: 1px solid black;
+    z-index: 1;
+}
+.card-001:hover{
+   z-index: 9999;
+}
+.card-001:hover .inside{
+    z-index: 9999;
+    transition-duration:  0.3s;
+    cursor: pointer;
+    display:block;
+    position:absolute;
+} 
+.card-002:hover{
+    z-index: 9999;
+ }
+.card-002:hover .inside{
+    z-index: 9999;
+    transition-duration:  0.3s;
+    cursor: pointer;
+    display:block;
+    position:absolute;
+} 
+.card-003:hover{
+    z-index: 9999;
+ }
+.card-003:hover .inside{
+    z-index: 9999;
+    transition-duration:  0.3s;
+    cursor: pointer;
+    display:block;
+    position:absolute;
+}
+.card-004:hover{
+    z-index: 9999;
+ }
+.card-004:hover .inside{
+    z-index: 9999;
+    transition-duration:  0.3s;
+    cursor: pointer;
+    display:block;
+    position:absolute;
+} 
+img{
+    width: 60px;
+    height: 60px;
+    position: center;
+    top: 0;
+}
+
+
